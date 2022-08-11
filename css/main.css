@@ -1,0 +1,55 @@
+
+body {
+	margin:0;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background:#E1F5FE;
+}
+
+.banner {
+	background:white;
+	position:relative;
+	width:300px;
+	height:250px;
+	border:1px solid #aaa;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+    background-image: url("https://assets.codepen.io/32887/pexels-asad-photo-maldives-1320674.jpg");
+	background-size:cover;
+}
+
+.cta {
+	cursor:pointer;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	border:none;
+	padding:18px;
+	border-radius:12px;
+	background-color:#43A047;
+	color:white;
+	font-size:20px;
+	transform:scale(0.8); /* set the button elements to teh largest size and then scale down to prevent anti-aliasing */
+	will-change:transform;  /* tells the browser to make optimisatons prior to the animation starting */
+}
+
+h2 {
+	font-weight:800;
+	text-align:center;
+	color:white;
+	font-family:sans-serif;
+	font-size:30px;
+	text-shadow:1px 1px 3px #333;
+}
+
+h2 span {
+	font-size:40px;
+}
+
+/* Photo by Asad Photo Maldives from Pexels 
+   https://www.pexels.com/photo/seashore-1320674/
+*/
